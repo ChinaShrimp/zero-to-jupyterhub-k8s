@@ -166,7 +166,7 @@ prePuller:
     enabled: false
   pause:
     image:
-      name: gcr.io/google_containers/pause
+      name: registry.cn-hangzhou.aliyuncs.com/google-containers/pause-amd64
       tag: '3.0'
 
 ingress:
